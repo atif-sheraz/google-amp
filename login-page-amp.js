@@ -11,4 +11,9 @@ function cardnumber(inputtxt)
         return false;
         }
 }
-body.onload='document.credit_card_form.formNameInput.focus()';
+window.addEventListener('load', focus);
+function focus(){
+  alert('start');
+  window.document.body.addEventListener('load', function(){alert(document.getElementsByTagName('body').length)}); 
+  alert('stop');
+}
