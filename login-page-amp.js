@@ -1,3 +1,4 @@
+alert("a");
 function cardnumber(inputtxt)
 {
   var cardno = /^(?:4[0-9]{12}(?:[0-9]{3})?)$/;
