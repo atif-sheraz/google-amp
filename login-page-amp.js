@@ -11,9 +11,3 @@ function cardnumber(inputtxt)
         return false;
         }
 }
-window.onload = focus (){
-alert "a";
-};
-function focus(){
-  alert('start');
-}
