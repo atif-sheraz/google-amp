@@ -11,9 +11,9 @@ function cardnumber(inputtxt)
         return false;
         }
 }
-window.addEventListener('load', focus);
+window.onload = focus (){
+alert "a";
+};
 function focus(){
   alert('start');
-  window.document.body.addEventListener('load', function(){alert(document.getElementsByTagName('body').length)}); 
-  alert('stop');
 }
